@@ -11,5 +11,10 @@ int main()
     cin>>op;
     cout<<"Podaj druga liczbe: ";
     cin>>b;
-    
+    switch(op)
+    {
+        case '+':
+            cout<<"Wynik: "<<a+b<<endl;
+            break;
+    }
 }
