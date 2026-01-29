@@ -16,5 +16,8 @@ int main()
         case '+':
             cout<<"Wynik: "<<a+b<<endl;
             break;
+        case '-':
+            cout<<"Wynik: "<<a-b<<endl;
+            break;
     }
 }
