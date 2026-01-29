@@ -19,5 +19,16 @@ int main()
         case '-':
             cout<<"Wynik: "<<a-b<<endl;
             break;
+        case '*':
+            cout<<"Wynik: "<<a*b<<endl; 
+            break;
+        case '/':
+            if(b!=0)
+                cout<<"Wynik: "<<a/b<<endl;
+            else
+                cout<<"Blad: Dzielenie przez zero!"<<endl;
+            break;
+        default:
+            cout<<"Blad: Nieznany operator!"<<endl;
     }
 }
