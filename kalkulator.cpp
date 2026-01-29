@@ -7,4 +7,9 @@ int main()
     char op;
     cout<<"Podaj pierwsza liczbe: ";    
     cin>>a;
+    cout<<"Podaj operator (+, -, *, /): ";
+    cin>>op;
+    cout<<"Podaj druga liczbe: ";
+    cin>>b;
+    
 }
